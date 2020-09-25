@@ -1,0 +1,19 @@
+{
+  "name": "BTS-SIO-WebApp",
+  "version": "1.0.0",
+  "description": "A minimal app to display the BTS SIO Webapp",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "BTS"
+  ],
+  "author": "HGHugo",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^10.1.2"
+  }
+}
