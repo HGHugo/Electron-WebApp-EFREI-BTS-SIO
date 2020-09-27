@@ -23,7 +23,7 @@ function createWindow () {
   //}))
 
   // Load URL
-  mainWindow.loadURL('https://google.fr')
+  mainWindow.loadURL('https://bts-sio-efrei.systems/')
   // On empeche le changement de nom
   mainWindow.on('page-title-updated', function(e) {
     e.preventDefault()

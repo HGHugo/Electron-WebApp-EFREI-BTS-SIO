@@ -1,0 +1,15 @@
+"build": {
+  "appId": "BTS-SIO-WebApp",
+  "win": {
+    "target": [
+      "nsis"
+    ],
+    "icon": "Icon/Icon.ico"
+  },
+  "nsis": {
+    "installerIcon": "Icon/Icon.ico",
+    "uninstallerIcon": "Icon/Icon.ico",
+    "uninstallDisplayName": "WebApp BTS SIO Efrei",
+    "license": "license.txt"
+  }
+},

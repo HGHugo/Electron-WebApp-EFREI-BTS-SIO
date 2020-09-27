@@ -1,19 +1,25 @@
 {
-  "name": "BTS-SIO-WebApp",
+  "name": "BTSSIOWebApp",
+  "productName": "WebApp BTS SIO Efrei",
   "version": "1.0.0",
   "description": "A minimal app to display the BTS SIO Webapp",
+  "author": "HGHugo",
   "main": "main.js",
   "scripts": {
+    "build": "rimraf git-checker-* && electron-packager . --platform=darwin,linux,win32 --arch=x64 --icon=app --overwrite",
+    "build-installer": "electron-builder",
     "start": "electron ."
   },
-  "repository": "",
   "keywords": [
     "Electron",
     "BTS"
   ],
-  "author": "HGHugo",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^10.1.2"
+    "electron": "^10.1.2",
+    "electron-builder": "^22.8.1",
+    "electron-installer-windows": "^3.0.0",
+    "electron-packager": "^15.1.0",
+    "rimraf": "^3.0.2"
   }
 }
